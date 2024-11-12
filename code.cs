@@ -46,12 +46,14 @@ namespace Calculator
 
              void getAandB()
             {
-                
+                console.WriteLine("Text the A number");
+                A = console.ReadLine();
+                console.WriteLine("Text the A number");
+                B = console.ReadLine();
             }
 
             void getPlus()
             {
-
             }
         
             void getMinus()
