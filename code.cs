@@ -65,7 +65,8 @@ namespace Calculator
             }
             void getUmn()
             {
-
+                int result = A * B;
+                console.WriteLine(result);
             }
             void getDel()
             {
