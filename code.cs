@@ -70,7 +70,8 @@ namespace Calculator
             }
             void getDel()
             {
-
+                int result = A / B;
+                console.WriteLine(result);
             }
         
         }
