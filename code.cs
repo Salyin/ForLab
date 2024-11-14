@@ -56,7 +56,8 @@ namespace Calculator
         
             void getMinus()
             {
-
+                int result = A - B;
+                console.WriteLine(result);
             }
             void getUmn()
             {
