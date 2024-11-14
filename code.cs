@@ -51,9 +51,11 @@ namespace Calculator
                 console.WriteLine("Text the A number");
                 B = console.ReadLine();
             }
-
+           
             void getPlus()
             {
+                int result = A + B;
+                console.WriteLine(result);
             }
         
             void getMinus()
