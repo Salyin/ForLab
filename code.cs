@@ -48,10 +48,11 @@ namespace Calculator
             {
                 
             }
-
+           
             void getPlus()
             {
-
+                int result = A + B;
+                console.WriteLine(result);
             }
         
             void getMinus()
